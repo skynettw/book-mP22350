@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        用來測試 AJAX 的網頁
+    </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $.ajax({
+                    url: "test1.txt",
+                    success: function (data) {
+                        $("#poem").html(data);
+                    }
+                });
+            });
+            $("#btn2").click(function () {
+                $.ajax({
+                    url: "test2.txt",
+                    success: function (data) {
+                        $("#poem").html("<pre>" + data + "</pre>");
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>AJAX 練習 </h1>
+    <p> 來看看李白的詩：<br>
+        <span id='poem'>
+            請按以下的按鈕顯示全文！
+        </span>
+    </p>
+    <button id='btn1'> 將進酒 </button>
+    <button id='btn2'> 俠客行 </button>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title> 用來測試 jQuery 的網頁 </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <button id="btn1"> 按鈕 1</button>
+    <button id="btn2"> 按鈕 2</button>
+    <button id="btn3"> 按鈕 3</button>
+    <button id="btn4"> 按鈕 4</button>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                alert(" 按鈕 1 被點擊了 ");
+            });
+
+            $("#btn2").click(function () {
+                alert(" 按鈕 2 被點擊了 ");
+            });
+
+            $("#btn3").click(function () {
+                alert(" 按鈕 3 被點擊了 ");
+            });
+
+            $("#btn4").click(function () {
+                alert(" 按鈕 4 被點擊了 ");
+            });
+        });
+    </script>
+</body>
+
+</html>

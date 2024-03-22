@@ -1,0 +1,15 @@
+.box {
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24pt;
+    text-align: center;
+    color: blue; 
+    border: 1px solid #888888; 
+}
+.round {
+    border-radius: 20px;
+}
+.shadow {
+    box-shadow: 10px 10px 5px #555555;
+}

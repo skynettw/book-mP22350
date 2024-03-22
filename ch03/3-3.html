@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title> 用來測試 jQuery 的網頁 </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <h1>jQuery 練習 </h1>
+    <p> 用不同的語言打招呼：
+        <span id='msg'>
+            你好
+        </span>
+    </p>
+    <button id="btn1"> 英文 </button>
+    <button id="btn2"> 法文 </button>
+    <button id="btn3"> 西班牙文 </button>
+    <button id="btn4"> 中文 </button>
+    <script>
+        var flags = [
+            "http://www.flags.net/images/largeflags/UNST0001.GIF",
+            "http://www.flags.net/images/largeflags/FRAN0001.GIF",
+            "http://www.flags.net/images/largeflags/SPAN0001.GIF",
+            "http://www.flags.net/images/largeflags/TAIW0001.GIF"
+        ];
+        $(document).ready(function () {
+            function change_flag(n) {
+                var flagimage = "<div id='flag'><img src='" + flags[n] + "' width=100></div>";
+                $("#flag").remove();
+                $(flagimage).insertAfter("#msg");
+            }
+            $("#btn1").click(function () {
+                $('#msg').html("Hello");
+                change_flag(0);
+            });
+            $("#btn2").click(function () {
+                $('#msg').html("Bonjour");
+                change_flag(1);
+            });
+            $("#btn3").click(function () {
+                $('#msg').html("Hola");
+                change_flag(2);
+            });
+            $("#btn4").click(function () {
+                $('#msg').html(" 你好 ");
+                change_flag(3);
+            });
+        });
+    </script>
+</body>
+
+</html>
