@@ -1,0 +1,22 @@
+.widget-area a {
+    font-family: 'Times New Roman', 'cwTeXHei';
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.widget-area h2 {
+    font-family: 'Times New Roman', 'cwTeXKai';
+    font-size: 1.5em;
+}
+
+.entry-title a {
+    text-decoration: none;
+    color: white;
+}
+
+header .entry-title {
+    font-family: sans-serif, 'cwTeXHei';
+    font-size: 2em;
+    background-color: orangered;
+    padding: 5px;
+}

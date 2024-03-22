@@ -1,0 +1,13 @@
+#primary {
+    float: left;
+    width: 70%;
+}
+
+#secondary {
+    float: right;
+    width: 25%;
+}
+
+#colophon {
+    clear: both;
+}

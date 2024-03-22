@@ -1,0 +1,23 @@
+#front-page-feature,
+#author-feature {
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    float: left;
+    box-shadow: 5px 5px 3px #bbb;
+}
+
+.author-title {
+    background-color: blue;
+    color: white;
+    font-size: 2.0em;
+}
+
+.author-body {
+    font-family: 'cwTeXFangSong', 'cwTeXKai', serif;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 150%;
+}

@@ -1,0 +1,26 @@
+main {
+    padding-bottom: 10px;
+    box-shadow: 3px 3px lightgray;
+}
+
+main .list-group a:hover {
+    background-color: #BBB;
+}
+
+main .poem-title {
+    font-size: 1.3em;
+}
+
+h2.screen-reader-text {
+    display: none;
+}
+
+nav.navigation.pagination {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}

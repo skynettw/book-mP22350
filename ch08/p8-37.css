@@ -1,0 +1,22 @@
+#sidebar {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.widget {
+    border: 1px solid #bbb;
+}
+
+.widget-title {
+    font-size: 1.2em;
+    background-color: #0aa;
+    color: white;
+}
+
+main {
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+}

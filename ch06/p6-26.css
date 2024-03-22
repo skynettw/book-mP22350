@@ -1,0 +1,8 @@
+aside .widget {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 5px 5px gray;
+    background: white;
+}

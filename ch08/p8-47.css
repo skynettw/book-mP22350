@@ -1,0 +1,25 @@
+#about-feature {
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.about-title {
+    background-color: blue;
+    color: white;
+    font-size: 2.0em;
+}
+
+.about-body,
+.about-body p {
+    font-family: 'cwTeXFangSong', 'cwTeXKai', serif;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 150%;
+}
+
+nav.page-sub-menu {
+    list-style: none;
+}

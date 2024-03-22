@@ -1,0 +1,23 @@
+/* 載入仿宋體 */
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css');
+
+/* 設定首頁的 CSS */
+#front-page {
+    font-family: 'cwTeXFangSong', 'cwTeXKai', serif;
+    font-size: 2em;
+    padding: 10px;
+}
+
+#front-page p {
+    text-indent: 1.9em;
+    text-align: justify;
+}
+
+#front-page-feature {
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    float: left;
+    box-shadow: 5px 5px 3px #bbb;
+}

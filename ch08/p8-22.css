@@ -1,0 +1,27 @@
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', 'cwTeXKai';
+}
+
+header {
+    background-image: url('title-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+    box-shadow: 1px 1px black;
+}
+
+#web-title {
+    color: lightgray;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#web-description {
+    text-shadow: 1px 1px white;
+    font-weight: 100;
+    font-size: 0.8em;
+}

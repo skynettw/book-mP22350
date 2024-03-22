@@ -1,0 +1,9 @@
+section.post-comment {
+    font-size: 0.6em;
+    overflow: auto;
+}
+
+section.post-comment textarea {
+    resize: horizontal;
+    max-width: 100%;
+}

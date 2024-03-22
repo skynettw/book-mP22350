@@ -1,0 +1,21 @@
+p {
+    font-size: 2.0em;
+    color: white;
+    line-height: 1.5em;
+    background-color: black;
+}
+
+aside h2 {
+    font-size: 2.0em;
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    letter-spacing: 5px;
+    background-color: blue;
+    width: 300px;
+    border-radius: 10px;
+}
+
+aside li {
+    list-style: none;
+}

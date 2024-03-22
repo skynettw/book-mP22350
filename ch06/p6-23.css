@@ -1,0 +1,31 @@
+#p-menu li {
+    display: inline-block;
+    height: 28px;
+    padding: 10px 10px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', 'Nato Sans SC';
+}
+
+aside {
+    width: 25%;
+    background-color: #ccffcc;
+    float: left;
+    border: 1px solid gray;
+    box-shadow: 5px 5px gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section {
+    float: right;
+    width: 72%;
+}
+
+footer {
+    background-color: #ffccff;
+    clear: both;
+}

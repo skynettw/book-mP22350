@@ -1,0 +1,21 @@
+.main-navigation {
+    width: 100%;
+    background-color: #ccc;
+    font-family: Arial;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.main-navigation ul {
+    margin: 2px;
+    padding-left: 10px;
+}
+
+.main-navigation li {
+    padding-right: 10px;
+}
+
+.main-navigation ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: #cfc;
+}

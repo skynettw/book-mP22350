@@ -1,0 +1,15 @@
+/*
+Theme Name: My2024
+Theme URI: https://104.es
+Author: Richard Ho
+Author URI: https://104.es
+Description: 設計適用於顯示詩詞的古風佈景主題
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap, jquery
+Text Domain: my2024
+Domain Path: /languages
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');

@@ -1,0 +1,9 @@
+<?php
+wp_enqueue_style(
+    'my2024t-font-hei',
+    'https://fonts.googleapis.com/earlyaccess/cwtexhei.css'
+);
+wp_enqueue_style(
+    'my2024t-font-kai',
+    'https://fonts.googleapis.com/earlyaccess/cwtexkai.css'
+);
